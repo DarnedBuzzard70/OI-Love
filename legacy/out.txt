@@ -1,0 +1,14 @@
+------------------------------------------------------------
+                  much_longer_name  size3           
+12345678.123      shorter           tiny            
+2short4me         size-1            
+mid_size_name     size2             
+------------------------------------------------------------
+               Butch          Froggy         P.D.         
+Alfalfa        Cotton         Joe            Porky        
+Buckwheat      Darla          Mrs_Crabapple  Stimey       
+------------------------------------------------------------
+            Carol       Greg        Lori        Peter     
+Alice       Chris       Jan         Marsha      Ruben     
+Bobby       Cindy       Jody        Mike        Shirley   
+Buffy       Danny       Keith       Mr._French  
