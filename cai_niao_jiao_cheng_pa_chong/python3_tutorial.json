@@ -1,0 +1,322 @@
+[
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-intro.html",
+    "content": "Python3简介Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。Python 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。Python 是一种解释型语言：这意味着开发过程中没有了编译这个环节。类似于PHP和Perl语言。Python 是交互式语言：这意味着，您可以在一个 Python 提示符>>>后直接执行代码。Python 是面向对象语言:这意味着Python支持面向对象的风格或代码封装在对象的编程技术。Python 是初学者的语言：Python 对初级程序员而言，是一种伟大的语言，它支持广"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-install.html",
+    "content": "Python3环境搭建Python3 具备出色的跨平台兼容性，可稳定运行在 Windows、Linux、Mac OS X 三大主流操作系统中，同时也支持众多其他平台与环境，包括：Unix 系列（Solaris、Linux、FreeBSD、AIX、HP/UX、SunOS、IRIX 等）传统Windows系统（9x/NT/2000）经典Macintosh系统（Intel、PPC、68K架构）其他专用/小众平台（OS/2、多版本DOS、PalmOS、Nokia移动手机、Windows CE、Acorn/RISC OS、BeOS、Amiga、VMS/OpenVMS、QNX、VxWorks、Psion）"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/fitten-code.html",
+    "content": "Python AI 编程助手这两年 AI 发展迅猛，作为开发人员，我们总是追求更快、更高效的工作方式，AI 的出现可以说改变了很多人的编程方式。AI 对我们来说就是一个可靠的编程助手，给我们提供了实时的建议和解决方案，无论是快速修复错误、提升代码质量，或者查找关键文档和资源，AI 作为编程助手都能让你事半功倍。今天为大家推荐一款适配了 Viusal Studio，VS Code(本文使用)，JetBrains 系列(本文使用)以及 Vim 等多种编译器环境的插件 Fitten Code，Fitten Code 是由非十大模型驱动的 AI 编程助手，它可以自动生成代码，提升开发效率，帮您调试 B"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-basic-syntax.html",
+    "content": "Python3 基础语法编码默认情况下，Python3 源码文件以UTF-8编码，所有字符串都是 unicode 字符串。当然你也可以为源码文件指定不同的编码：# -*- coding: cp-1252 -*-上述定义允许在源文件中使用 Windows-1252 字符集中的字符编码，对应适合语言为保加利亚语、白俄罗斯语、马其顿语、俄语、塞尔维亚语。标识符第一个字符必须以字母（a-z, A-Z）或下划线_。标识符的其他的部分由字母、数字和下划线组成。标识符对大小写敏感，count 和 Count 是不同的标识符。标识符对长度无硬性限制，但建议保持简洁（一般不超过 20 个字符）。禁止使用保留关键"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-data-type.html",
+    "content": "Python3 基本数据类型Python 中的变量不需要声明。每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。在 Python 中，变量就是变量，它没有类型，我们所说的类型是变量所指的内存中对象的类型。等号=用来给变量赋值。等号左边是变量名，右边是存储在变量中的值。例如：实例(Python 3.0+)#!/usr/bin/python3counter=100# 整型变量miles=1000.0# 浮点型变量name=\"runoob\"# 字符串print(counter)print(miles)print(name)运行实例 »执行以上程序会输出如下结果：100\r\n1000.0\r\nru"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-type-conversion.html",
+    "content": "Python3 数据类型转换有时候，我们需要对数据内置的类型进行转换，数据类型的转换，一般情况下你只需要将数据类型作为函数名即可。Python 数据类型转换可以分为两种：隐式类型转换 - 自动完成显式类型转换 - 需要使用类型函数来转换隐式类型转换在隐式类型转换中，Python 会自动将一种数据类型转换为另一种数据类型，不需要我们去干预。以下实例中，我们对两种不同类型的数据进行运算，较低数据类型（整数）就会转换为较高数据类型（浮点数）以避免数据丢失。实例num_int=123num_flo=1.23num_new=num_int + num_floprint(\"num_int 数据类型为:\","
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-interpreter.html",
+    "content": "Python3 解释器Linux/Unix的系统上，一般默认的 python 版本为 2.x，我们可以将 python3.x 安装在/usr/local/python3目录中。安装完成后，我们可以将路径/usr/local/python3/bin添加到您的 Linux/Unix 操作系统的环境变量中，这样您就可以通过 shell 终端输入下面的命令来启动 Python3 。$ PATH=$PATH:/usr/local/python3/bin/python3    # 设置环境变量\r\n$ python3 --version\r\nPython 3.4.0在Window系统下你可以通过以下命令来设置"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-comment.html",
+    "content": "Python3 注释在 Python 中，注释不会影响程序的执行，但是会使代码更易于阅读和理解。Python 中的注释有单行注释和多行注释。单行注释Python 中单行注释以#开头，#符号后面的所有文本都被视为注释，不会被解释器执行。实例# 这是一个注释print(\"Hello, World!\")# 这也是注释多行注释在 Python 中，多行字符串（由三个单引号'''或三个双引号\"\"\"包围的文本块）可以用作多行注释。1、使用三个单引号实例#!/usr/bin/python3'''这是多行注释，用三个单引号这是多行注释，用三个单引号这是多行注释，用三个单引号'''print(\"Hello, W"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-basic-operators.html",
+    "content": "Python3运算符什么是运算符？本章节主要说明 Python 的运算符。举个简单的例子:4 + 5 = 9例子中，4和5被称为操作数，+称为运算符。Python 语言支持以下类型的运算符:算术运算符比较（关系）运算符赋值运算符逻辑运算符位运算符成员运算符身份运算符运算符优先级接下来让我们一个个来学习Python的运算符。Python算术运算符以下假设变量a=10，变量b=21：运算符描述实例+加 - 两个对象相加a + b 输出结果 31-减 - 得到负数或是一个数减去另一个数a - b 输出结果 -11*乘 - 两个数相乘或是返回一个被重复若干次的字符串a * b 输出结果 210/除 -"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-number.html",
+    "content": "Python3 数字(Number)Python 数字数据类型用于存储数值。数据类型是不允许改变的，这就意味着如果改变数字数据类型的值，将重新分配内存空间。以下实例在变量赋值时 Number 对象将被创建：var1 = 1\r\nvar2 = 10您也可以使用del语句删除一些数字对象的引用。del语句的语法是：del var1[,var2[,var3[....,varN]]]您可以通过使用del语句删除单个或多个对象的引用，例如：del var\r\ndel var_a, var_bPython 支持三种不同的数值类型：整型(int)- 通常被称为是整型或整数，是正或负整数，不带小数点。Python"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-string.html",
+    "content": "Python3字符串字符串是 Python 中最常用的数据类型。我们可以使用引号('或\")来创建字符串。创建字符串很简单，只要为变量分配一个值即可。例如：var1='Hello World!'var2=\"Runoob\"Python 访问字符串中的值Python 不支持单字符类型，单字符在 Python 中也是作为一个字符串使用。Python 访问子字符串，可以使用方括号[]来截取字符串，字符串的截取的语法格式如下：变量[头下标:尾下标]索引值以0为开始值，-1为从末尾的开始位置。如下实例：实例(Python 3.0+)#!/usr/bin/python3var1='Hello World!'v"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-list.html",
+    "content": "Python3列表序列是 Python 中最基本的数据结构。序列中的每个值都有对应的位置值，称之为索引，第一个索引是 0，第二个索引是 1，依此类推。Python 有 6 个序列的内置类型，但最常见的是列表和元组。列表都可以进行的操作包括索引，切片，加，乘，检查成员。此外，Python 已经内置确定序列的长度以及确定最大和最小的元素的方法。列表是最常用的 Python 数据类型，它可以作为一个方括号内的逗号分隔值出现。列表的数据项不需要具有相同的类型创建一个列表，只要把逗号分隔的不同的数据项使用方括号括起来即可。如下所示：list1=['Google','Runoob',1997,2000]l"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-tuple.html",
+    "content": "Python3元组Python 的元组与列表类似，不同之处在于元组的元素不能修改。元组使用小括号( )，列表使用方括号[ ]。元组创建很简单，只需要在括号中添加元素，并使用逗号隔开即可。实例(Python 3.0+)>>>tup1=('Google','Runoob',1997,2000)>>>tup2=(1,2,3,4,5)>>>tup3=\"a\",\"b\",\"c\",\"d\"#  不需要括号也可以>>>type(tup3)<class'tuple'>创建空元组tup1 = ()元组中只包含一个元素时，需要在元素后面添加逗号,，否则括号会被当作运算符使用：实例(Python 3.0+)>>>tup1"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-dictionary.html",
+    "content": "Python3字典字典是另一种可变容器模型，且可存储任意类型对象。字典的每个键值key=>value对用冒号:分割，每个对之间用逗号(,)分割，整个字典包括在花括号{}中 ,格式如下所示：d = {key1 : value1, key2 : value2, key3 : value3 }注意：dict作为 Python 的关键字和内置函数，变量名不建议命名为dict。键必须是唯一的，但值则不必。值可以取任何数据类型，但键必须是不可变的，如字符串，数字。一个简单的字典实例：tinydict = {'name': 'runoob', 'likes': 123, 'url': 'www.runoob"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-set.html",
+    "content": "Python3 集合集合（set）是一个无序的不重复元素序列。集合中的元素不会重复，并且可以进行交集、并集、差集等常见的集合操作。可以使用大括号{ }创建集合，元素之间用逗号,分隔， 或者也可以使用set()函数创建集合。创建格式：parame = {value01,value02,...}\r\n或者\r\nset(value)以下是一个简单实例：set1 = {1, 2, 3, 4}            # 直接使用大括号创建集合\r\nset2 = set([4, 5, 6, 7])      # 使用 set() 函数从列表创建集合注意：创建一个空集合必须用set()而不是{ }，因为{ }是用"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-conditional-statements.html",
+    "content": "Python3 条件控制Python 条件语句是通过一条或多条语句的执行结果（True 或者 False）来决定执行的代码块。可以通过下图来简单了解条件语句的执行过程:代码执行过程：条件判断关键字关键字 / 函数说明示例if条件判断语句，当条件为 True 时执行代码块if x > 0:elif多条件判断分支（else if）elif x == 0:else所有条件不满足时执行else:pass空语句，占位用，保证语法完整if x > 0: passmatch结构化模式匹配（Python 3.10+，类似 switch）match x: case 1: ...if 语句Python中if语句的"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-loop.html",
+    "content": "Python3 循环语句本章节将为大家介绍 Python \r\n循环语句的使用。Python 中的循环语句有 for 和 while。Python 循环语句的控制结构图如下所示：循环控制关键字与方法关键字 / 函数说明示例for迭代循环，用于遍历序列或可迭代对象for i in list:while条件循环，条件为 True 时持续执行while x > 0:break立即终止当前循环breakcontinue跳过本次循环剩余代码，进入下一次迭代continueelse（循环）循环正常结束（未被 break）时执行for i in range(3): ... else: ...pass循环中的占"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-step1.html",
+    "content": "Python3 编程第一步在前面的教程中我们已经学习了一些 Python3 的基本语法知识，接下来我们来尝试一些实例。打印字符串:实例print(\"Hello, world!\")输出结果为：Hello, world!输出变量值:实例i=256*256print('i 的值为：',i)输出结果为：i 的值为： 65536定义变量并进行简单的数学运算实例x=3y=2z=x + yprint(z)输出结果为：5定义一个列表并打印出其中的元素：实例my_list=['google','runoob','taobao']print(my_list[0])# 输出 \"google\"print(my_lis"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-iterator-generator.html",
+    "content": "Python3 迭代器与生成器迭代器迭代是 Python 最强大的功能之一，是访问集合元素的一种方式。迭代器是一个可以记住遍历的位置的对象。迭代器对象从集合的第一个元素开始访问，直到所有的元素被访问完结束。迭代器只能往前不会后退。迭代器有两个基本的方法：iter()和next()。字符串，列表或元组对象都可用于创建迭代器：实例(Python 3.0+)>>>list=[1,2,3,4]>>>it=iter(list)# 创建迭代器对象>>>print(next(it))# 输出迭代器的下一个元素1>>>print(next(it))2>>>迭代器对象可以使用常规for语句进行遍历：实例(Pyt"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-with-keyword.html",
+    "content": "Python with 关键字在 Python 编程中，资源管理是一个重要但容易被忽视的环节。with关键字为我们提供了一种优雅的方式来处理文件操作、数据库连接等需要明确释放资源的场景。with 是 Python 中的一个关键字，用于上下文管理协议（Context Management Protocol）。它简化了资源管理代码，特别是那些需要明确释放或清理的资源（如文件、网络连接、数据库连接等）。为什么需要 with 语句？传统资源管理的问题我们先看一个典型的文件操作示例：实例file=open('example.txt','r')try:content=file.read()# 处理文件内容"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-function.html",
+    "content": "Python3 函数函数是组织好的，可重复使用的，用来实现单一，或相关联功能的代码段。函数能提高应用的模块性，和代码的重复利用率。你已经知道Python提供了许多内建函数，比如print()。但你也可以自己创建函数，这被叫做用户自定义函数。定义一个函数你可以定义一个由自己想要功能的函数，以下是简单的规则：函数代码块以def关键词开头，后接函数标识符名称和圆括号()。任何传入参数和自变量必须放在圆括号中间，圆括号之间可以用于定义参数。函数的第一行语句可以选择性地使用文档字符串—用于存放函数说明。函数内容以冒号:起始，并且缩进。return [表达式]结束函数，选择性地返回一个值给调用方，不带表达"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-data-structure.html",
+    "content": "Python3 数据结构本章节我们主要结合前面所学的知识点来介绍Python数据结构。列表Python中列表是可变的，这是它区别于字符串和元组的最重要的特点，一句话概括即：列表可以修改，而字符串和元组不能。以下是 Python 中列表的方法：方法描述list.append(x)把一个元素添加到列表的结尾，相当于 a[len(a):] = [x]。list.extend(L)通过添加指定列表的所有元素来扩充列表，相当于 a[len(a):] = L。list.insert(i, x)在指定位置插入一个元素。第一个参数是准备插入到其前面的那个元素的索引，例如 a.insert(0, x) 会插入到"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-module.html",
+    "content": "Python3 模块在前面的几个章节中我们基本上是用 python 解释器来编程，如果你从 Python 解释器退出再进入，那么你定义的所有的方法和变量就都消失了。为此 Python 提供了一个办法，把这些定义存放在文件中，为一些脚本或者交互式的解释器实例使用，这个文件被称为模块。Python 中的模块（Module）是一个包含 Python 定义和语句的文件，文件名就是模块名加上.py后缀。模块可以包含函数、类、变量以及可执行的代码。通过模块，我们可以将代码组织成可重用的单元，便于管理和维护。模块的作用代码复用：将常用的功能封装到模块中，可以在多个程序中重复使用。命名空间管理：模块可以避免命"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-name-main.html",
+    "content": "Python __name__ 与 __main__平时我们经常会看到这样的 Python 代码：if __name__ == \"__main__\":\r\n    main()在 Python 中，__name__和__main__是两个与模块和脚本执行相关的特殊变量。__name__和__main__ 通常用于控制代码的执行方式，尤其是在模块既可以作为独立脚本运行，也可以被其他模块导入时。1. __name__ 变量__name__是一个内置变量，用于表示当前模块的名称。__name__的值取决于模块是如何被使用的：当模块作为主程序运行时：__name__的值被设置为\"__main__\"。当模"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-inputoutput.html",
+    "content": "Python3 输入和输出在前面几个章节中，我们其实已经接触了 Python 的输入输出的功能。本章节我们将具体介绍 Python 的输入输出。输出格式美化Python两种输出值的方式: 表达式语句和 print() 函数。第三种方式是使用文件对象的 write() 方法，标准输出文件可以用 sys.stdout 引用。如果你希望输出的形式更加多样，可以使用 str.format() 函数来格式化输出值。如果你希望将输出的值转成字符串，可以使用 repr() 或 str() 函数来实现。str()：函数返回一个用户易读的表达形式。repr()：产生一个解释器易读的表达形式。例如>>>s='He"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-file-methods.html",
+    "content": "Python3 File(文件) 方法open() 方法Pythonopen()方法用于打开一个文件，并返回文件对象。在对文件进行处理过程都需要使用到这个函数，如果该文件无法被打开，会抛出OSError。注意：使用open()方法一定要保证关闭文件对象，即调用close()方法。open()函数常用形式是接收两个参数：文件名(file)和模式(mode)。open(file, mode='r')完整的语法格式为：open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, o"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-os-file-methods.html",
+    "content": "Python3 OS 文件/目录方法os模块是 Python 标准库中的一个重要模块，它提供了与操作系统交互的功能。通过os模块，你可以执行文件操作、目录操作、环境变量管理、进程管理等任务。os模块是跨平台的，这意味着你可以在不同的操作系统（如 Windows、Linux、macOS）上使用相同的代码。在使用os模块之前，你需要先导入它。导入os模块的代码如下：import osos 模块的常用功能1. 获取当前工作目录os.getcwd()函数用于获取当前工作目录的路径。当前工作目录是 Python 脚本执行时所在的目录。实例current_directory=os.getcwd()prin"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-errors-execptions.html",
+    "content": "Python3 错误和异常作为 Python 初学者，在刚学习 Python 编程时，经常会看到一些报错信息，在前面我们没有提及，这章节我们会专门介绍。Python 有两种错误很容易辨认：语法错误和异常。Python assert（断言）用于判断一个表达式，在表达式条件为 false 的时候触发异常。语法错误Python 的语法错误或者称之为解析错，是初学者经常碰到的，如下实例>>>whileTrueprint('Hello world')File\"<stdin>\",line1,in?whileTrueprint('Hello world')^SyntaxError: invalid synt"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-class.html",
+    "content": "Python3 面向对象Python从设计之初就已经是一门面向对象的语言，正因为如此，在Python中创建一个类和对象是很容易的。本章节我们将详细介绍Python的面向对象编程。如果你以前没有接触过面向对象的编程语言，那你可能需要先了解一些面向对象语言的一些基本特征，在头脑里头形成一个基本的面向对象的概念，这样有助于你更容易的学习Python的面向对象编程。接下来我们先来简单的了解下面向对象的一些基本特征。面向对象技术简介类(Class):用来描述具有相同的属性和方法的对象的集合。它定义了该集合中每个对象所共有的属性和方法。对象是类的实例。方法：类中定义的函数。类变量：类变量在整个实例化的对象"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-namespace-scope.html",
+    "content": "Python3 命名空间和作用域命名空间先看看官方文档的一段话：A namespace is a mapping from names to objects.Most namespaces are currently implemented as Python dictionaries。命名空间(Namespace)是从名称到对象的映射，大部分的命名空间都是通过 Python 字典来实现的。命名空间提供了在项目中避免名字冲突的一种方法。各个命名空间是独立的，没有任何关系的，所以一个命名空间中不能有重名，但不同的命名空间是可以重名而没有任何影响。我们举一个计算机系统中的例子，一个文件夹(目录)中"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-venv.html",
+    "content": "Python 虚拟环境的创建（venv）虚拟环境是一个独立的 Python 运行空间，拥有自己的解释器、安装包和配置，与系统全局环境完全隔离。Python 虚拟环境（Virtual Environment）是一个独立的 Python 运行环境，它允许你在同一台机器上为不同的项目创建隔离的 Python 环境。不同项目可以在各自的虚拟环境中并行运行，互不干扰。每个虚拟环境都有自己的：Python 解释器安装的包/库环境变量全局安装（版本冲突）✓ 虚拟环境（完全隔离）全局 Python 环境site-packages（所有项目共享）项目 A需要 Django 3.2项目 B需要 Django 4."
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-type-hints.html",
+    "content": "Python 类型注解（Type Hints）想象一下，你给朋友寄一个包裹。如果你在包裹上写明\"易碎品\"和\"向上箭头\"，快递员就会知道要小心轻放、正确朝向。类型注解（Type Hints）在编程中就扮演着类似的角色——它是一种为代码添加\"说明标签\"的技术，明确地指出变量、函数参数和返回值应该是什么数据类型。简单来说，类型注解就是在代码中注明数据类型的语法，它的核心目的是：提高代码可读性：让他人（以及未来的你）一眼就能看懂代码的意图便于静态检查：在运行代码前，通过工具发现潜在的类型错误增强IDE支持：让代码编辑器提供更准确的自动补全和提示一个简单的例子：实例# 没有类型注解defgreet(na"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-stdlib.html",
+    "content": "Python3 标准库概览Python 标准库非常庞大，所提供的组件涉及范围十分广泛，使用标准库我们可以让您轻松地完成各种任务。以下是一些 Python3 标准库中的模块：os 模块：os 模块提供了许多与操作系统交互的函数，例如创建、移动和删除文件和目录，以及访问环境变量等。sys 模块：sys 模块提供了与 Python 解释器和系统相关的功能，例如解释器的版本和路径，以及与 stdin、stdout 和 stderr 相关的信息。time 模块：time 模块提供了处理时间的函数，例如获取当前时间、格式化日期和时间、计时等。datetime 模块：datetime 模块提供了更高级的日期"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-examples.html",
+    "content": "Python3 实例以下实例在 Python3.4.3 版本下测试通过：Python Hello World 实例Python 数字求和Python 平方根Python 二次方程Python 计算三角形的面积Python 计算圆的面积Python 随机数生成Python 摄氏温度转华氏温度Python 交换变量Python if 语句Python 判断字符串是否为数字Python 判断奇数偶数Python 判断闰年Python 获取最大值函数Python 质数判断Python 输出指定范围内的素数Python 阶乘实例Python 九九乘法表Python 斐波那契数列Python 阿姆斯特朗数"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-reg-expressions.html",
+    "content": "Python3 正则表达式正则表达式是一个特殊的字符序列，它能帮助你方便的检查一个字符串是否与某种模式匹配。在 Python 中，使用re模块来处理正则表达式。re 模块提供了一组函数，允许你在字符串中进行模式匹配、搜索和替换操作。re模块使 Python 语言拥有完整的正则表达式功能。本章节主要介绍 Python 中常用的正则表达式处理函数，如果你对正则表达式不了解，可以查看我们的正则表达式 - 教程。re.match函数re.match 尝试从字符串的起始位置匹配一个模式，如果不是起始位置匹配成功的话，match() 就返回 None。函数语法：re.match(pattern, stri"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-mysql.html",
+    "content": "Python3 MySQL 数据库连接 - PyMySQL 驱动本文我们为大家介绍 Python3 使用PyMySQL连接数据库，并实现简单的增删改查。什么是 PyMySQL？PyMySQL 是在 Python3.x 版本中用于连接 MySQL 服务器的一个库，Python2 中则使用 mysqldb。PyMySQL 遵循 Python 数据库 API v2.0 规范，并包含了 pure-Python MySQL 客户端库。PyMySQL 安装在使用 PyMySQL 之前，我们需要确保 PyMySQL 已安装。PyMySQL 下载地址：https://github.com/PyMySQL/Py"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-socket.html",
+    "content": "Python3 网络编程Python 提供了两个级别访问的网络服务。：低级别的网络服务支持基本的 Socket，它提供了标准的 BSD Sockets API，可以访问底层操作系统Socket接口的全部方法。高级别的网络服务模块 SocketServer， 它提供了服务器中心类，可以简化网络服务器的开发。什么是 Socket?Socket又称\"套接字\"，应用程序通常通过\"套接字\"向网络发出请求或者应答网络请求，使主机间或者一台计算机上的进程间可以通讯。socket()函数Python 中，我们用 socket() 函数来创建套接字，语法格式如下：socket.socket([family[, "
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-xml-processing.html",
+    "content": "Python3 XML 解析什么是 XML？XML 指可扩展标记语言（eXtensibleMarkupLanguage），标准通用标记语言的子集，是一种用于标记电子文件使其具有结构性的标记语言。\r\n你可以通过本站学习XML 教程XML 被设计用来传输和存储数据。XML 是一套定义语义标记的规则，这些标记将文档分成许多部件并对这些部件加以标识。它也是元标记语言，即定义了用于定义其他与特定领域有关的、语义的、结构化的标记语言的句法语言。Python 对 XML 的解析常见的 XML 编程接口有 DOM 和 SAX，这两种接口处理 XML 文件的方式不同，当然使用场合也不同。Python 有三种方法"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-json.html",
+    "content": "Python3 JSON 数据解析JSON (JavaScript Object Notation)  是一种轻量级的数据交换格式。如果你还不了解 JSON，可以先阅读我们的JSON 教程。Python3 中可以使用 json 模块来对 JSON 数据进行编解码，它包含了两个函数：json.dumps():对数据进行编码。json.loads():对数据进行解码。在 json 的编解码过程中，Python 的原始类型与 json 类型会相互转换，具体的转化对照如下：Python 编码为 JSON 类型转换对应表：PythonJSONdictobjectlist, tuplearraystrst"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-built-in-functions.html",
+    "content": "Python3 内置函数Python 提供了大量内置函数（Built-in Functions），无需导入任何库即可直接使用。\r\n这些函数覆盖了数据类型转换、数学计算、迭代操作、反射机制等常见场景，是每个 Python 初学者必须掌握的基础工具。为什么要掌握内置函数？减少代码量：一行顶多行（例如sum()、max()）提升可读性：语义明确，比手写逻辑更清晰性能更优：底层 C 实现，通常比 Python 循环更快常见分类数值计算：abs()、round()、min()、max()、sum()类型转换：int()、float()、str()、list()、tuple()迭代与函数式：code>ma"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-mongodb.html",
+    "content": "Python MongoDBMongoDB 是目前最流行的 NoSQL 数据库之一，使用的数据类型 BSON（类似 JSON）。MongoDB 数据库安装与介绍可以查看我们的MongoDB 教程。PyMongoPython 要连接 MongoDB 需要 MongoDB 驱动，这里我们使用 PyMongo 驱动来连接。pip 安装pip 是一个通用的 Python 包管理工具，提供了对 Python 包的查找、下载、安装、卸载的功能。安装 pymongo:$ python3 -m pip3 install pymongo也可以指定安装的版本:$ python3 -m pip3 install p"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-uwsgi.html",
+    "content": "Python uWSGI  安装配置本文主要介绍如何部署简单的 WSGI 应用和常见的 Web 框架。以 Ubuntu/Debian 为例，先安装依赖包：apt-get install build-essential python-devPython 安装 uWSGI1、通过 pip 命令：pip install uwsgi2、下载安装脚本：curl http://uwsgi.it/install | bash -s default /tmp/uwsgi将 uWSGI 二进制安装到 /tmp/uwsgi ，你可以修改它。3、源代码安装：wget http://projects.unbit.it"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-statistics.html",
+    "content": "Python statistics 模块在数据分析和科学计算中，统计学是一个非常重要的工具。Python 提供了一个内置的statistics模块，专门用于处理基本的统计计算。本文将详细介绍statistics模块的功能和使用方法，帮助初学者快速掌握如何使用这个模块进行基本的统计分析。statistics模块提供了许多常用的统计函数，如均值、中位数、方差、标准差等。要使用 statistics 函数必须先导入：import statistics查看 statistics 模块中的内容:>>>importstatistics>>>dir(statistics)['Counter','Decima"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-hashlib.html",
+    "content": "Python hashlib 模块Pythonhashlib模块主要用于进行哈希（hash）操作。哈希（Hash）是一种将任意长度的输入数据映射为固定长度输出数据的算法。哈希通常用于验证数据的完整性、安全存储密码等场景。哈希函数的输出通常是一串看似随机的字母和数字。hashlib 模块提供了常见的哈希算法的实现，如 MD5、SHA-1、SHA-256 等。要使用hashlib函数必须先导入：import hashlib查看 hashlib 模块中的内容:实例>>> import hashlib>>> dir(hashlib)['__all__', '__block_openssl_constr"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-qt.html",
+    "content": "Python 量化Python 量化是指利用 Python 编程语言以及相关的库和工具来进行金融市场数据分析、策略开发和交易执行的过程。Python 由于其简洁、易学、强大的生态系统和丰富的金融库而成为量化交易的首选编程语言之一。量化交易在金融领域得到广泛应用，它允许交易者通过系统性的方法来制定和执行交易策略，提高交易效率和决策的科学性。量化主要是通过数学和统计学的方法，利用计算机技术对金融市场进行量化分析，从而制定和执行交易策略。更多 Python 量化内容可以查看：Python 量化交易。实例应用接下来我们先看一个 Python 量化简单的应用实例，可以使用移动平均策略，使用雅虎金融数据来"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-pyecharts.html",
+    "content": "Python pyecharts 模块pyecharts 是一个基于 ECharts 的 Python 数据可视化库，它允许用户使用 Python 语言生成各种类型的交互式图表和数据可视化。ECharts 是一个使用 JavaScript 实现的开源可视化库，而 Pyecharts 则是 ECharts 的 Python 封装，使得在 Python 中使用 ECharts 变得更加方便。pyecharts 提供了一组简单而灵活的 API，使用户能够轻松地创建各种图表，包括但不限于折线图、柱状图、散点图、饼图、地图等。通过 pyecharts，用户可以使用 Python 语言处理和准备数据，然后"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-selenium.html",
+    "content": "Python selenium 库Selenium 是一个用于自动化 Web 浏览器操作的强大工具，广泛应用于 Web 应用程序测试、网页数据抓取和任务自动化等场景。Selenium 为各种编程语言提供了 API，用作测试。 目前的官方 API 文档有 C#、JavaScript、Java、Python、Ruby。Selenium 教程：https://www.runoob.com/selenium/安装 Selenium 和 WebDriver安装 Selenium要开始使用 Selenium，首先需要安装 selenium 库，并下载适用于你浏览器的 WebDriver。使用 pip 安装"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-spider-beautifulsoup.html",
+    "content": "Python 爬虫 - BeautifulSoupPython 爬虫（Web Scraping）是指通过编写 Python 程序从互联网上自动提取信息的过程。爬虫的基本流程通常包括发送 HTTP 请求获取网页内容、解析网页并提取数据，然后存储数据。Python 的丰富生态使其成为开发爬虫的热门语言，特别是由于其强大的库支持。一般来说，爬虫的流程可以分为以下几个步骤：发送 HTTP 请求：爬虫通过 HTTP 请求从目标网站获取 HTML 页面，常用的库包括requests。解析 HTML 内容：获取 HTML 页面后，爬虫需要解析内容并提取数据，常用的库有BeautifulSoup、lxml、S"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-scrapy.html",
+    "content": "Python Scrapy 库Scrapy 是一个功能强大的 Python 爬虫框架，专门用于抓取网页数据并提取信息。Scrapy常被用于数据挖掘、信息处理或存储历史数据等应用。Scrapy 内置了许多有用的功能，如处理请求、跟踪状态、处理错误、处理请求频率限制等，非常适合进行高效、分布式的网页爬取。与简单的爬虫库（如requests和BeautifulSoup）不同，Scrapy 是一个全功能的爬虫框架，具有高度的可扩展性和灵活性，适用于复杂和大规模的网页抓取任务。Scrapy 官网：https://scrapy.org/。Scrapy 特点与介绍：https://www.runoob.co"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-markdown2html.html",
+    "content": "Python Markdown 生成 HTMLMarkdown 是一种轻量级的标记语言，它允许你使用易读易写的纯文本格式来编写文档，然后将其转换为结构化的 HTML 文档。Markdown 的语法简单直观，常用于编写博客、文档、README 文件等。更多 Markdown 内容参考：Markdown 教程Python 可以使用 markdown 模块将 Markdown 文本转换为 HTML。将 Markdown 转换为 HTML 的步骤1. 安装markdown库首先，我们需要安装 Python 的markdown库，可以使用pip来安装它：pip install markdown2. 编写"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-sys.html",
+    "content": "Python sys 模块sys是 Python 标准库中的一个模块，提供了与 Python 解释器及其环境交互的功能。通过sys库，你可以访问与 Python 解释器相关的变量和函数，例如命令行参数、标准输入输出、程序退出等。导入 sys 库在使用sys库之前，你需要先导入它。导入方式如下：import sys实例importsys# 列出 os 模块的所有属性和方法print(dir(os))sys 库的常用功能1. 命令行参数sys.argv是一个包含命令行参数的列表。sys.argv[0]是脚本的名称，后续元素是传递给脚本的参数。示例代码：实例importsysprint(\"脚本名称:"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-pickle.html",
+    "content": "Python Pickle 模块在 Python 开发中，我们经常需要把运行时的对象保存下来，或者在程序重启后恢复之前的状态，例如：将计算结果缓存到磁盘，避免重复计算保存用户配置、程序中间状态在不同 Python 进程之间传递复杂对象pickle模块正是 Python 为解决这类问题提供的官方内置方案。Python 的pickle模块是一个用于序列化和反序列化 Python 对象的标准库模块。在开始使用 Pickle 之前，需要理解两个核心概念：序列化（Pickling）：将 Python 对象转换为字节序列反序列化（Unpickling）：将字节序列转换回 Python 对象pickle模块"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-subprocess.html",
+    "content": "Python subprocess 模块subprocess是 Python 标准库中的一个模块，用于创建和管理子进程。subprocess允许你在 Python 程序中执行外部命令，并与这些命令进行交互。通过subprocess模块，你可以执行系统命令、调用其他程序，并获取它们的输出或错误信息。为什么使用 subprocess 模块？在 Python 中，有时我们需要执行一些系统命令或调用其他程序来完成特定的任务。例如，你可能需要运行一个 shell 命令、启动一个外部应用程序，或者与一个命令行工具进行交互。subprocess模块提供了一种安全且灵活的方式来处理这些需求。与早期的os.sy"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-queue.html",
+    "content": "Python queue 模块在 Python 中，queue模块提供了一个线程安全的队列实现，用于在多线程编程中安全地传递数据。队列是一种先进先出（FIFO）的数据结构，queue模块提供了多种队列类型，包括Queue、LifoQueue和PriorityQueue，以满足不同的需求。队列类型1. QueueQueue是queue模块中最常用的队列类型，它实现了标准的先进先出（FIFO）队列。以下是Queue的基本用法：实例importqueue# 创建一个队列q=queue.Queue()# 向队列中添加元素q.put(1)q.put(2)q.put(3)# 从队列中获取元素print(q"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-stringio.html",
+    "content": "Python StringIO 模块在 Python 中，StringIO模块是一个非常有用的工具，它允许我们在内存中处理字符串，就像处理文件一样。通常情况下，我们处理文件时需要打开、读取、写入和关闭文件，而StringIO模块则提供了一种更灵活的方式，让我们可以在内存中完成这些操作，而不需要实际创建文件。为什么使用 StringIO 模块？内存效率：StringIO模块在内存中操作字符串，避免了频繁的磁盘 I/O 操作，提高了程序的运行效率。灵活性：它允许我们像操作文件一样操作字符串，非常适合需要临时存储和处理字符串的场景。测试和调试：在编写测试代码时，StringIO可以模拟文件对象，方便"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-logging.html",
+    "content": "Python logging 模块在编程中，日志记录（logging）是一种非常重要的工具，它可以帮助我们跟踪程序的运行状态、调试错误以及记录重要信息。Python 提供了一个内置的logging模块，专门用于处理日志记录任务。与简单的print语句相比，logging模块更加灵活和强大，能够满足不同场景下的日志需求。为什么使用 logging 模块？灵活性：logging模块允许你根据需要设置日志的级别、格式和输出位置。可扩展性：你可以轻松地将日志输出到文件、控制台、网络等不同的目标。结构化日志：logging模块支持结构化日志记录，便于后续的分析和处理。性能优化：与print相比，logg"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-datetime.html",
+    "content": "Python datetime 模块Python 的datetime模块是用于处理日期和时间的标准库模块。它提供了多种类和函数，可以帮助我们轻松地处理日期、时间、时间差等操作。无论是获取当前时间、格式化日期，还是计算时间差，datetime模块都能胜任。datetime 模块的核心类datetime模块中包含了以下几个核心类：date类 -date类用于表示日期，包含年、月、日三个属性。time类 -time类用于表示时间，包含时、分、秒、微秒等属性。datetime类 -datetime类是date和time的结合体，可以同时表示日期和时间。timedelta类 -timedelta类用于表"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-re.html",
+    "content": "Python re 模块Python 的re模块是用于处理正则表达式的标准库模块。正则表达式（Regular Expression，简称 regex 或 regexp）是一种强大的工具，用于匹配、搜索和操作文本。通过re模块，你可以在 Python 中使用正则表达式来处理字符串。为什么使用 re 模块？在处理文本时，我们经常需要查找特定的模式或替换某些字符。例如，验证电子邮件地址、提取网页中的链接、或者格式化文本。手动编写代码来完成这些任务可能会非常繁琐，而正则表达式提供了一种简洁且高效的方式来解决这些问题。re 模块的基本用法1. 导入 re 模块在使用re模块之前，首先需要导入它：impo"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-csv.html",
+    "content": "Python csv 模块CSV（Comma-Separated Values）文件是一种常见的文件格式，用于存储表格数据。CSV 文件由纯文本组成，每一行代表表格中的一行数据，而每一列则通过逗号（或其他分隔符）分隔。CSV 文件通常用于数据交换，因为它简单且易于处理。Python 提供了一个内置的csv模块，用于读取和写入 CSV 文件。这个模块简化了处理 CSV 文件的过程，使得开发者可以轻松地操作表格数据。1. 读取 CSV 文件要读取 CSV 文件，可以使用csv.reader对象。以下是一个简单的示例：实例importcsv# 打开 CSV 文件withopen('data.csv'"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-treading.html",
+    "content": "Python threading 模块Python 的threading模块是用于实现多线程编程的标准库之一。多线程允许程序在同一时间内执行多个任务，从而提高程序的效率和响应速度。threading模块提供了创建和管理线程的工具，使得开发者可以轻松地编写并发程序。什么是线程？你可以把线程想象成办公室里的员工：一个单线程程序就像只有一个员工，他必须顺序完成打印文档、回复邮件、泡咖啡等所有工作。多线程程序则像拥有多个员工，他们可以同时进行不同的任务，大大提高了工作效率。在计算机科学中：进程：一个运行中的程序，拥有独立的内存空间（例如，你同时打开的浏览器和音乐播放器就是两个进程）。线程：进程内的一个"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-asyncio.html",
+    "content": "Python asyncio 模块asyncio是 Python 标准库中的一个模块，用于编写异步 I/O 操作的代码。asyncio 提供了一种高效的方式来处理并发任务，特别适用于 I/O 密集型操作，如网络请求、文件读写等。通过使用asyncio，你可以在单线程中同时处理多个任务，而无需使用多线程或多进程。为什么需要 asyncio？在传统的同步编程中，当一个任务需要等待 I/O 操作（如网络请求）完成时，程序会阻塞，直到操作完成。这会导致程序的效率低下，尤其是在需要处理大量 I/O 操作时。asyncio通过引入异步编程模型，允许程序在等待 I/O 操作时继续执行其他任务，从而提高了程序"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python-pyqt.html",
+    "content": "Python PyQtPyQt 是一个强大的 Python 库，用于创建图形用户界面（GUI），可以用来代替 Python 内置的 Tkinter。PyQt 是 Qt 框架的 Python 绑定，广泛应用于桌面应用程序开发。Qt 是一个跨平台的 C++ 应用程序开发框架。PyQt 允许 Python 开发者利用 Qt 库创建功能强大的 GUI 应用程序。PyQt 有以下几个主要版本：PyQt4：基于 Qt4 的绑定PyQt5：基 于Qt5 的绑定PyQt6：基于 Qt6 的绑定（最新版本）安装 PyQt使用 pip 安装 PyQt5：# 安装PyQt5\r\npip install PyQt5\r\n"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-for.html",
+    "content": "Python for 循环Python3 循环语句for是 Python 中最常用的循环语句，用于遍历可迭代对象（序列、字典、集合等）。Python 的for循环比 C/C++ 等语言更加简洁和强大，不需要手动管理循环变量，直接遍历元素。单词释义：for意为\"为、对于\"，用于迭代遍历。基本语法与参数语法格式for 变量 in 可迭代对象:\r\n    代码块语法说明变量： 每次循环从可迭代对象中取出的元素。可迭代对象： 列表、元组、字符串、字典、集合、range 等。缩进： 循环体必须缩进。else 子句可选： for 循环可以有 else 子句。执行时机： 循环正常结束（未通过 break 退"
+  },
+  {
+    "title": "菜鸟教程 -- 学的不仅是技术，更是梦想！",
+    "url": "https://www.runoob.com/python3/python3-while.html",
+    "content": "Python while 循环Python3 循环语句while是 Python 中的条件循环语句，只要条件为 True，就会持续执行循环体。与for不同，while循环更适合于不确定循环次数、需要根据条件退出的场景。单词释义：while意为\"当...时\"，表示在条件为真时持续执行。基本语法与参数语法格式while 条件:\r\n    # 循环体（必须缩进）\r\n    语句1\r\n    语句2\r\n    ...\r\nelse:\r\n    # 可选，当循环“正常结束”时执行\r\n    语句1\r\n    语句2\r\n    ...语法说明条件： 每次循环开始前判断的条件表达式。执行逻辑： 为 True "
+  }
+]
