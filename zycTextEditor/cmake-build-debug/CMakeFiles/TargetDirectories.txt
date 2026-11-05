@@ -1,0 +1,3 @@
+C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/zycTextEditor.dir
+C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
