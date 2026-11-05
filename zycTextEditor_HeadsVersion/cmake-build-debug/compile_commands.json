@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycTextEditor.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycTextEditor.dir\\main.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycTextEditor\\main.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/main.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/zycTextEditor.dir/main.cpp.obj"
+}
+]
