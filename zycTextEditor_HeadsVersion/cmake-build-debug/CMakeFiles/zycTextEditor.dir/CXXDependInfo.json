@@ -1,0 +1,37 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor",
+	"dir-top-bld" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug",
+	"dir-top-src" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/zycTextEditor.dir",
+	"sources" : 
+	{
+		"CMakeFiles/zycTextEditor.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/main.cpp"
+		},
+		"CMakeFiles/zycTextEditor.dir/zycFastRead.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/zycFastRead.cpp"
+		},
+		"CMakeFiles/zycTextEditor.dir/zycTextEditorFunctions.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/zycTextEditorFunctions.cpp"
+		}
+	}
+}

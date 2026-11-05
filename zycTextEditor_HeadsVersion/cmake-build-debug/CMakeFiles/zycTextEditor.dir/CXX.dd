@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/zycTextEditor.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/zycTextEditor.dir/zycTextEditorFunctions.cpp.obj: dyndep
+
+build CMakeFiles/zycTextEditor.dir/zycFastRead.cpp.obj: dyndep
+

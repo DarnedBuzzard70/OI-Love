@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycTextEditor.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycTextEditor.dir\\main.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycTextEditor\\main.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/main.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/zycTextEditor.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycTextEditor.dir\\zycTextEditorFunctions.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycTextEditor.dir\\zycTextEditorFunctions.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycTextEditor\\zycTextEditorFunctions.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/zycTextEditorFunctions.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/zycTextEditor.dir/zycTextEditorFunctions.cpp.obj"
+},
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycTextEditor.dir\\zycFastRead.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycTextEditor.dir\\zycFastRead.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycTextEditor\\zycFastRead.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/zycFastRead.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycTextEditor/cmake-build-debug/CMakeFiles/zycTextEditor.dir/zycFastRead.cpp.obj"
+}
+]
