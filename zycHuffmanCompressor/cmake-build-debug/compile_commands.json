@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug",
+  "command": "\"C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycHuffmanCompressor.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycHuffmanCompressor.dir\\main.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycHuffmanCompressor\\main.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/main.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug/CMakeFiles/zycHuffmanCompressor.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug",
+  "command": "\"C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycHuffmanCompressor.dir\\compressor.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycHuffmanCompressor.dir\\compressor.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycHuffmanCompressor\\compressor.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/compressor.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug/CMakeFiles/zycHuffmanCompressor.dir/compressor.cpp.obj"
+},
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug",
+  "command": "\"C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycHuffmanCompressor.dir\\hashtable.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycHuffmanCompressor.dir\\hashtable.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycHuffmanCompressor\\hashtable.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/hashtable.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug/CMakeFiles/zycHuffmanCompressor.dir/hashtable.cpp.obj"
+},
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug",
+  "command": "\"C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycHuffmanCompressor.dir\\huffman.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycHuffmanCompressor.dir\\huffman.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycHuffmanCompressor\\huffman.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/huffman.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug/CMakeFiles/zycHuffmanCompressor.dir/huffman.cpp.obj"
+},
+{
+  "directory": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug",
+  "command": "\"C:\\Program Files\\JetBrains\\CLion 2025.3.2\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\zycHuffmanCompressor.dir\\minheap.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\zycHuffmanCompressor.dir\\minheap.cpp.obj -c C:\\Users\\25845\\OneDrive\\CLionProjects\\zycHuffmanCompressor\\minheap.cpp",
+  "file": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/minheap.cpp",
+  "output": "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug/CMakeFiles/zycHuffmanCompressor.dir/minheap.cpp.obj"
+}
+]
