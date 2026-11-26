@@ -1,0 +1,2 @@
+C:\Users\25845\OneDrive\CLionProjects\zycHuffmanCompressor\test_data\en1.txt
+C:\Users\25845\OneDrive\CLionProjects\zycHuffmanCompressor\test_data\cn1.txt

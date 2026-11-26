@@ -1,0 +1,47 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor",
+	"dir-top-bld" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug",
+	"dir-top-src" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/cmake-build-debug/CMakeFiles/zycHuffmanCompressor.dir",
+	"sources" : 
+	{
+		"CMakeFiles/zycHuffmanCompressor.dir/compressor.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/compressor.cpp"
+		},
+		"CMakeFiles/zycHuffmanCompressor.dir/hashtable.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/hashtable.cpp"
+		},
+		"CMakeFiles/zycHuffmanCompressor.dir/huffman.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/huffman.cpp"
+		},
+		"CMakeFiles/zycHuffmanCompressor.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/main.cpp"
+		},
+		"CMakeFiles/zycHuffmanCompressor.dir/minheap.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/25845/OneDrive/CLionProjects/zycHuffmanCompressor/minheap.cpp"
+		}
+	}
+}

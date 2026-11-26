@@ -1,0 +1,11 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/zycHuffmanCompressor.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/zycHuffmanCompressor.dir/compressor.cpp.obj: dyndep
+
+build CMakeFiles/zycHuffmanCompressor.dir/hashtable.cpp.obj: dyndep
+
+build CMakeFiles/zycHuffmanCompressor.dir/huffman.cpp.obj: dyndep
+
+build CMakeFiles/zycHuffmanCompressor.dir/minheap.cpp.obj: dyndep
+

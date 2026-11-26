@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\zycHuffmanCompressor.dir\\minheap.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
